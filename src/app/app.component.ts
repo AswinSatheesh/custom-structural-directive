@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'custom-structural-directive';
+  value : boolean = false;
+  buttonClick(){
+    this.value = true;
+  }
+  buttonClickX(){
+    this.value = false;
+  }
 }
